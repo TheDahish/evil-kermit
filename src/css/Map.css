@@ -1,10 +1,24 @@
 .Map {
   
-    height: 1018px;
+    height: 720px;
     width: 100%;
   background-image: url("../images/setup.png");
   background-repeat: no-repeat;
   background-size: auto;
   margin: auto;
-  width: 50%;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../images/setup.png");
+  background-repeat: no-repeat;  
+  background-attachment: fixed;
+   
+    background-position: top center;
+   background-size: contain;
 }
